@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  medicaltrackingsystem-backend:
+    image: ${DOCKER_REGISTRY-}medicaltrackingsystembackend
+    build:
+      context: .
+      dockerfile: MedicalTrackingSystem-Backend/Dockerfile

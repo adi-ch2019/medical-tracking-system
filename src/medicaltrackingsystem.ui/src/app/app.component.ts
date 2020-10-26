@@ -6,41 +6,20 @@ import { DOCUMENT } from '@angular/common';
 @Component({
   selector: 'pm-root',
   template: `
-    <nav class='navbar navbar-expand navbar-light bg-light'>
-        <a class='navbar-brand'>{{pageTitle}}</a>
-
-
-       <ng-container *ngIf="auth.isAuthenticated$ | async; else loggedOut">
-       <ul class='nav nav-pills' >
-
-        <li ><a class='nav-link' routerLinkActive='active' [routerLink]="['/movies']">Movie List</a></li>
-
-        <li *ngIf="auth.isAuthenticated$" (click)="auth.logout({ returnTo: document.location.origin })">
-
-        <a class='nav-link'  routerLinkActive='active' [routerLink]="['/welcome']" >
-          Log out
-        </a>
-        </li>
-        </ul>
-
-     </ng-container>
-
-     <ng-template #loggedOut>
-     <ul class='nav nav-pills' >
-
-        <li ><a class='nav-link' routerLinkActive='active' [routerLink]="['/movies']" (click)="auth.loginWithRedirect()">Log in</a></li>
+  <nav class='navbar navbar-expand navbar-light bg-light'>
+      <a class='navbar-brand'>{{pageTitle}}</a>
+      <ul class='nav nav-pills'>
+        <li><a class='nav-link' routerLinkActive='active' [routerLink]="['/welcome']">Home</a></li>
+        <li><a class='nav-link' routerLinkActive='active' [routerLink]="['/medicines']">Medicines List</a></li>
       </ul>
-      </ng-template>
-
-    </nav>
-    <div class='container'>
-      <router-outlet></router-outlet>
-    </div>
-    `,
+  </nav>
+  <div class='container'>
+    <router-outlet></router-outlet>
+  </div>
+  `,
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  pageTitle = 'Movies Application';
+  pageTitle = 'Medical Tracking System';
 
-  constructor(@Inject(DOCUMENT) public document: Document, public auth: AuthService) {}
-}
+ }

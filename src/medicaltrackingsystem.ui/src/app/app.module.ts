@@ -7,7 +7,8 @@ import { AppComponent } from './app.component';
 import { WelcomeComponent } from './home/welcome.component';
 import { MoviesModule } from './movies/movies.module';
 
-import { AuthModule } from '@auth0/auth0-angular';
+import { MedicinesModule } from './medicines/medicines.module';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,17 +17,15 @@ import { AuthModule } from '@auth0/auth0-angular';
   ],
   imports: [
     BrowserModule,
-    AuthModule.forRoot({
-      domain: 'dev-qpexv46a.auth0.com',
-      clientId: 'PGuEij0vcnYWCCbvzFQZxtAJgVU9rFZS'
-    }),
     HttpClientModule,
     RouterModule.forRoot([
       { path: 'welcome', component: WelcomeComponent },
       { path: '', redirectTo: 'welcome', pathMatch: 'full' },
       { path: '**', redirectTo: 'welcome', pathMatch: 'full' }
     ]),
-    MoviesModule
+    MoviesModule,
+    MedicinesModule,
+    FormsModule
   ],
   bootstrap: [AppComponent]
 })
