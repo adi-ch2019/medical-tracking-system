@@ -16,3 +16,6 @@
 /test/unit/MedicalTrackingSystem-Backend/MedicalTrackingSystem-Backend.Test/bin/Debug/netcoreapp3.1
 /test/unit/MedicalTrackingSystem-Backend/MedicalTrackingSystem-Backend.Test/obj
 /src/.vs/medicaltrackingsystem
+/test/integration/medicaltrackingsystem.api/.vs/medicaltrackingsystem.api
+/test/integration/medicaltrackingsystem.api/medicaltrackingsystem.api/bin/Debug/netcoreapp3.1
+/test/integration/medicaltrackingsystem.api/medicaltrackingsystem.api/obj
