@@ -1,0 +1,42 @@
+[
+    {
+         "FullNameOfMedicine": "Medicine1",
+         "Brand": "Brand1",
+         "Price": "52",
+         "Quantity": "25",
+         "ExpiryDate": "26.10.2021",
+         "Notes":"Notes NOtes Notes1"
+       },
+       {
+        "FullNameOfMedicine": "Medicine2",
+        "Brand": "Brand2",
+        "Price": "522",
+        "Quantity": "5",
+        "ExpiryDate": "26.10.2022",
+        "Notes":"Notes NOtes Notes2"
+      },
+      {
+        "FullNameOfMedicine": "Medicine3",
+        "Brand": "Brand3",
+        "Price": "53",
+        "Quantity": "35",
+        "ExpiryDate": "26.10.2023",
+        "Notes":"Notes NOtes Notes3"
+      },
+      {
+        "FullNameOfMedicine": "Medicine4",
+        "Brand": "Brand4",
+        "Price": "524",
+        "Quantity": "24",
+        "ExpiryDate": "26.10.2024",
+        "Notes":"Notes NOtes Notes4"
+      },
+      {
+        "FullNameOfMedicine": "Medicine5",
+        "Brand": "Brand5",
+        "Price": "52",
+        "Quantity": "15",
+        "ExpiryDate": "26.10.2025",
+        "Notes":"Notes NOtes Notes5"
+      },
+ ]

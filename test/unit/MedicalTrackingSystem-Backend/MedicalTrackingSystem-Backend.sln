@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedicalTrackingSystem-Backend", "MedicalTrackingSystem-Backend\MedicalTrackingSystem-Backend.csproj", "{BF053410-87CB-4E00-85E2-6263C6E76BB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicalTrackingSystem-Backend.Test", "MedicalTrackingSystem-Backend.Test\MedicalTrackingSystem-Backend.Test.csproj", "{11CF3475-9B33-4158-89C0-3192FFD7DB64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF053410-87CB-4E00-85E2-6263C6E76BB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF053410-87CB-4E00-85E2-6263C6E76BB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF053410-87CB-4E00-85E2-6263C6E76BB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF053410-87CB-4E00-85E2-6263C6E76BB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11CF3475-9B33-4158-89C0-3192FFD7DB64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11CF3475-9B33-4158-89C0-3192FFD7DB64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11CF3475-9B33-4158-89C0-3192FFD7DB64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11CF3475-9B33-4158-89C0-3192FFD7DB64}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B0F03EE-E358-4640-8679-D2B95469DCC9}
+	EndGlobalSection
+EndGlobal
