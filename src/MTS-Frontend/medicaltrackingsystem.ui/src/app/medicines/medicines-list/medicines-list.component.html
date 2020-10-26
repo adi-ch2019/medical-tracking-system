@@ -1,0 +1,55 @@
+<div class='card'>
+  <div class='card-header'>
+    {{pageTitle}}
+  </div>
+  <div class='card-body'>
+    <div class='row'>
+      <div class='col-md-2'>Filter by Medicine Name:</div>
+      <div class='col-md-4'>
+        <input type='text'
+               [(ngModel)]='listFilter' />
+      </div>
+    </div>
+    <div class='row'
+         *ngIf='listFilter'>
+      <div class='col-md-6'>
+        <h4>Filtered by: {{listFilter}}</h4>
+      </div>
+    </div>
+    <div class='table-responsive'>
+      <table class='table'
+             *ngIf='medicines && medicines.length'>
+        <thead>
+          <tr>
+            <th>Full Name Of Medicine</th>
+            <th>Brand</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Expiry Date
+
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor='let medicine of filteredMedicines'>
+
+            <td>
+              <a [routerLink]="['/medicines', medicine.fullNameOfMedicine]">
+                {{  medicine.fullNameOfMedicine }}
+              </a>
+            </td>
+            <td>{{ medicine.brand }}</td>
+            <td>{{ medicine.price}}</td>
+            <td><div [style.background-color]="quantityCheck( medicine.quantity )"> {{ medicine.quantity }}</div></td>
+            <td><div [style.background-color]="dateCheck( medicine.expiryDate )" > {{ medicine.expiryDate |  date:'dd/MM/yyyy' }}</div></td>
+          </tr>
+        </tbody>
+      </table>
+      <p *ngIf='!filteredMedicines.length'> No Data Found </p>
+    </div>
+  </div>
+</div>
+<div *ngIf='errorMessage'
+     class='alert alert-danger'>
+  Error: {{ errorMessage }}
+</div>

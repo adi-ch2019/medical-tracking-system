@@ -1,0 +1,95 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MTS-Backend", "MTS-Backend", "{B9B27206-7133-4FD1-B74B-B83C5B3586CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "medicaltrackingsystem.api", "medicaltrackingsystem.api", "{90661A06-B1F7-4CA6-8CB3-A1A4C68A41A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "medicaltrackingsystem.api", "MTS-Backend\medicaltrackingsystem.api\medicaltrackingsystem.api\medicaltrackingsystem.api.csproj", "{6733ECA5-6A1C-426C-B7CB-CDFFB2C8F7AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MTS-Frontend", "MTS-Frontend", "{36F8FD64-C8A1-4299-A805-9CEB5AAFE363}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "medicaltrackingsystem.ui(1)", "MTS-Frontend\medicaltrackingsystem.ui\", "{EE20A4D9-8A31-4B1C-85A6-72787C637F4D}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_55768"
+		Debug.AspNetCompiler.PhysicalPath = "MTS-Frontend\medicaltrackingsystem.ui\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55768\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_55768"
+		Release.AspNetCompiler.PhysicalPath = "MTS-Frontend\medicaltrackingsystem.ui\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55768\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "55768"
+		SlnRelativePath = "MTS-Frontend\medicaltrackingsystem.ui\"
+	EndProjectSection
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{173B269D-14C3-4DCE-BE79-6AA5D5C3D722}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6733ECA5-6A1C-426C-B7CB-CDFFB2C8F7AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6733ECA5-6A1C-426C-B7CB-CDFFB2C8F7AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6733ECA5-6A1C-426C-B7CB-CDFFB2C8F7AD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6733ECA5-6A1C-426C-B7CB-CDFFB2C8F7AD}.Debug|x64.Build.0 = Debug|Any CPU
+		{6733ECA5-6A1C-426C-B7CB-CDFFB2C8F7AD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6733ECA5-6A1C-426C-B7CB-CDFFB2C8F7AD}.Debug|x86.Build.0 = Debug|Any CPU
+		{6733ECA5-6A1C-426C-B7CB-CDFFB2C8F7AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6733ECA5-6A1C-426C-B7CB-CDFFB2C8F7AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6733ECA5-6A1C-426C-B7CB-CDFFB2C8F7AD}.Release|x64.ActiveCfg = Release|Any CPU
+		{6733ECA5-6A1C-426C-B7CB-CDFFB2C8F7AD}.Release|x64.Build.0 = Release|Any CPU
+		{6733ECA5-6A1C-426C-B7CB-CDFFB2C8F7AD}.Release|x86.ActiveCfg = Release|Any CPU
+		{6733ECA5-6A1C-426C-B7CB-CDFFB2C8F7AD}.Release|x86.Build.0 = Release|Any CPU
+		{EE20A4D9-8A31-4B1C-85A6-72787C637F4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE20A4D9-8A31-4B1C-85A6-72787C637F4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE20A4D9-8A31-4B1C-85A6-72787C637F4D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EE20A4D9-8A31-4B1C-85A6-72787C637F4D}.Debug|x64.Build.0 = Debug|Any CPU
+		{EE20A4D9-8A31-4B1C-85A6-72787C637F4D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EE20A4D9-8A31-4B1C-85A6-72787C637F4D}.Debug|x86.Build.0 = Debug|Any CPU
+		{EE20A4D9-8A31-4B1C-85A6-72787C637F4D}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE20A4D9-8A31-4B1C-85A6-72787C637F4D}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{EE20A4D9-8A31-4B1C-85A6-72787C637F4D}.Release|x64.ActiveCfg = Debug|Any CPU
+		{EE20A4D9-8A31-4B1C-85A6-72787C637F4D}.Release|x64.Build.0 = Debug|Any CPU
+		{EE20A4D9-8A31-4B1C-85A6-72787C637F4D}.Release|x86.ActiveCfg = Debug|Any CPU
+		{EE20A4D9-8A31-4B1C-85A6-72787C637F4D}.Release|x86.Build.0 = Debug|Any CPU
+		{173B269D-14C3-4DCE-BE79-6AA5D5C3D722}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{173B269D-14C3-4DCE-BE79-6AA5D5C3D722}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{173B269D-14C3-4DCE-BE79-6AA5D5C3D722}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{173B269D-14C3-4DCE-BE79-6AA5D5C3D722}.Debug|x64.Build.0 = Debug|Any CPU
+		{173B269D-14C3-4DCE-BE79-6AA5D5C3D722}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{173B269D-14C3-4DCE-BE79-6AA5D5C3D722}.Debug|x86.Build.0 = Debug|Any CPU
+		{173B269D-14C3-4DCE-BE79-6AA5D5C3D722}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{173B269D-14C3-4DCE-BE79-6AA5D5C3D722}.Release|Any CPU.Build.0 = Release|Any CPU
+		{173B269D-14C3-4DCE-BE79-6AA5D5C3D722}.Release|x64.ActiveCfg = Release|Any CPU
+		{173B269D-14C3-4DCE-BE79-6AA5D5C3D722}.Release|x64.Build.0 = Release|Any CPU
+		{173B269D-14C3-4DCE-BE79-6AA5D5C3D722}.Release|x86.ActiveCfg = Release|Any CPU
+		{173B269D-14C3-4DCE-BE79-6AA5D5C3D722}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{90661A06-B1F7-4CA6-8CB3-A1A4C68A41A7} = {B9B27206-7133-4FD1-B74B-B83C5B3586CC}
+		{6733ECA5-6A1C-426C-B7CB-CDFFB2C8F7AD} = {90661A06-B1F7-4CA6-8CB3-A1A4C68A41A7}
+		{EE20A4D9-8A31-4B1C-85A6-72787C637F4D} = {36F8FD64-C8A1-4299-A805-9CEB5AAFE363}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5F23A21-E2E0-406A-9A45-DD261E68BAC8}
+	EndGlobalSection
+EndGlobal

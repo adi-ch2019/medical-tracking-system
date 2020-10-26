@@ -1,0 +1,22 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/test/MedicalTrackingSystem-Backend/.vs/MedicalTrackingSystem-Backend
+/test/MedicalTrackingSystem-Backend/MedicalTrackingSystem-Backend/bin/Debug/netcoreapp3.1
+/test/MedicalTrackingSystem-Backend/MedicalTrackingSystem-Backend/obj
+/test/MedicalTrackingSystem-Backend/MedicalTrackingSystem-Backend.Test/bin/Debug/netcoreapp3.1
+/test/MedicalTrackingSystem-Backend/MedicalTrackingSystem-Backend.Test/obj
+/src/MedicalTrackingSystem-Backend/.vs/MedicalTrackingSystem-Backend
+/src/MedicalTrackingSystem-Backend/bin/Debug/netcoreapp3.1
+/src/MedicalTrackingSystem-Backend/obj
+/test/unit/MedicalTrackingSystem-Backend/.vs/MedicalTrackingSystem-Backend
+/test/unit/MedicalTrackingSystem-Backend/MedicalTrackingSystem-Backend/bin/Debug/netcoreapp3.1
+/test/unit/MedicalTrackingSystem-Backend/MedicalTrackingSystem-Backend/obj
+/test/unit/MedicalTrackingSystem-Backend/MedicalTrackingSystem-Backend.Test/bin/Debug/netcoreapp3.1
+/test/unit/MedicalTrackingSystem-Backend/MedicalTrackingSystem-Backend.Test/obj
+/src/.vs/medicaltrackingsystem
+/test/integration/medicaltrackingsystem.api/.vs/medicaltrackingsystem.api
+/test/integration/medicaltrackingsystem.api/medicaltrackingsystem.api/bin/Debug/netcoreapp3.1
+/test/integration/medicaltrackingsystem.api/medicaltrackingsystem.api/obj
+/src/MTS-Backend/medicaltrackingsystem.api/medicaltrackingsystem.api/obj/Container
