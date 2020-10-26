@@ -1,4 +1,4 @@
-# Movies-frontend 1
+# MTS-frontend 1
 FROM node:alpine as node
 LABEL author="Aditya Naidu"
 WORKDIR /app
@@ -9,5 +9,5 @@ RUN npm install
 WORKDIR /app
 COPY . /app
 
-EXPOSE 4200 49153
-CMD npm run start
+RUN npm run --prod
+

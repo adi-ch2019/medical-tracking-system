@@ -5,7 +5,6 @@ import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { WelcomeComponent } from './home/welcome.component';
-import { MoviesModule } from './movies/movies.module';
 
 import { MedicinesModule } from './medicines/medicines.module';
 import { FormsModule } from '@angular/forms';
@@ -23,7 +22,6 @@ import { FormsModule } from '@angular/forms';
       { path: '', redirectTo: 'welcome', pathMatch: 'full' },
       { path: '**', redirectTo: 'welcome', pathMatch: 'full' }
     ]),
-    MoviesModule,
     MedicinesModule,
     FormsModule
   ],

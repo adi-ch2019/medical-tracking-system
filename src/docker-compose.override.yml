@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  medicaltrackingsystem.api:
+    containter_name: mtsapi-linux-container
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "6001:80"  
+      
+  medicaltrackingsystem.ui:
+    containter_name: mtsaui-linux-container
+    ports:
+      - "4200:80"

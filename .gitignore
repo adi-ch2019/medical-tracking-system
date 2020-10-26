@@ -19,3 +19,4 @@
 /test/integration/medicaltrackingsystem.api/.vs/medicaltrackingsystem.api
 /test/integration/medicaltrackingsystem.api/medicaltrackingsystem.api/bin/Debug/netcoreapp3.1
 /test/integration/medicaltrackingsystem.api/medicaltrackingsystem.api/obj
+/src/MTS-Backend/medicaltrackingsystem.api/medicaltrackingsystem.api/obj/Container

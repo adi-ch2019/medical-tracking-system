@@ -1,0 +1,25 @@
+version: '3.4'
+
+services:
+  medicaltrackingsystem.api:
+    image: ${DOCKER_REGISTRY-}medicaltrackingsystemapi
+    build:
+      context: .
+      dockerfile: MTS-Backend/medicaltrackingsystem.api/medicaltrackingsystem.api/Dockerfile
+    ports: 
+      - "6001:80"
+    networks: 
+      - mtsnetwork
+  medicaltrackingsystem.ui:
+    image: ${DOCKER_REGISTRY-}medicaltrackingsystemui
+    build:
+      context: .
+      dockerfile: MTS-Frontend/medicaltrackingsystem.ui/Dockerfile
+    ports: 
+      - "4200:4200"   
+    networks: 
+      - mtsnetwork
+networks: 
+  mtsnetwork:
+    driver: bridge  
+             
